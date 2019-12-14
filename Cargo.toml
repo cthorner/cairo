@@ -47,15 +47,15 @@ path = "cairo-sys-rs"
 
 [dependencies.glib]
 optional = true
-git = "https://github.com/gtk-rs/glib"
+git = "https://github.com/cthorner/glib"
 
 [dependencies.glib-sys]
 optional = true
-git = "https://github.com/gtk-rs/sys"
+git = "https://github.com/cthorner/sys"
 
 [dependencies.gobject-sys]
 optional = true
-git = "https://github.com/gtk-rs/sys"
+git = "https://github.com/cthorner/sys"
 
 [dependencies]
 libc = "0.2"

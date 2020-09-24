@@ -30,6 +30,8 @@ win32-surface = ["winapi"]
 libc = "0.2"
 
 [dependencies.glib-sys]
+git = "https://github.com/cthorner/sys"
+branch = "crate-custom"
 optional = true
 version = "0.9.1"
 
